@@ -1,0 +1,15 @@
+---
+layout: ../layouts/BaseLayout.astro
+title: Contact
+
+---
+
+<section class="contact-form">
+  <h2>Contact Us</h2>
+  <form action="https://formspree.io/f/mayvlpve" method="POST">
+    <wa-input name="name" label="Your Name" required></wa-input>
+    <wa-input type="email" name="email" label="Your Email" required></wa-input>
+    <wa-textarea name="message" label="Message" required></wa-textarea>
+    <wa-button variant="primary" type="submit">Send Message</wa-button>
+  </form>
+</section>
